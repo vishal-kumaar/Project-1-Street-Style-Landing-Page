@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100px;
+}
+
+img[alt="brand-logo"] {
+    position: absolute;
+    left: 130px;
+    top: 30px;
+    width: 120px;
+}
+
+.list {
+    position: absolute;
+    left: 33vw;
+    top: 50px;
+    list-style: none;
+}
+
+.list-item {
+    float: left;
+    margin: 0 20px;
+    font-family: "Orbitron", Arial;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.list-item:first-child {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 22px;
+}
+
+.list-item:first-child::after {
+    content: "";
+    position: relative;
+    left: 13px;
+    display: block;
+    border-bottom: 2px solid #000000;
+    width: 43px;
+}
+
+.button-group {
+    position: absolute;
+    right: 130px;
+    top: 40px;
+    width: 165px;
+    /* margin: 40px 0 0 0; */
+}
+
+.search-icon svg {
+    float: left;
+    width: 20px;
+    margin-top: 5px;
+}
+
+.nav-button {
+    float: right;
+    margin-top: 5px;
+    padding: 0px 30px;
+    font-size: 19px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #858585;
+    font-family: "Poppins", Arial;
+}
+
+.hero-container {
+    position: relative;
+    height: 517px;
+}
+
+.square {
+    position: absolute;
+    left: 230px;
+    bottom: 40px;
+    z-index: -1;
+}
+
+.square img {
+    width: 250px;
+}
+
+.star {
+    position: absolute;
+    right: 0;
+}
+
+.star img {
+    width: 45px;
+    margin: 55px 135px 0 0;
+}
+
+.globe {
+    position: absolute;
+    right: 0;
+}
+
+.globe img {
+    margin: 30px 570px 0 0;
+    width: 45px;
+}
+
+.person {
+    position: absolute;
+    left: 130px;
+    bottom: 80px;
+}
+
+.person img {
+    width: 300px;
+}
+
+.hero-container-right {
+    position: absolute;
+    right: 130px;
+    bottom: 40px;
+    width: 50vw;
+    text-align: center;
+    height: 350px;
+}
+
+.hero-heading {
+    font-family: "Orbitron", Arial;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.hero-description {
+    font-size: 11px;
+    margin: 40px 100px;
+    font-family: "Poppins", Arial;
+}
+
+.hero-container-right button {
+    margin: 20px 5px;
+}
+
+.button-email {
+    font-family: "Orbitron", Arial;
+    padding: 2px 20px;
+    border-radius: 5px;
+    border: 2px solid #515151;
+    color: #515151;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+.button-join {
+    font-family: "Orbitron", Arial;
+    padding: 2px 4px 2px 2px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 14px;
+}
+
+.contact-heading {
+    font-size: 15px;
+    font-family: "Poppins", Arial;
+    font-weight: 500;
+    color: #515151;
+    margin-top: 40px;
+}
+
+.icons img {
+    width: 25px;
+    margin: 10px 6px;
+}
+
+.hero-container-right::after {
+    content: "";
+    background-image: url(/assets/start.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+}
