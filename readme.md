@@ -27,7 +27,7 @@ This assignment is written in **HTML5 and CSS3** which is given in **"JavaScript
     👉 Google fonts.
     👉 Margin and Padding.
 
-## I take 3 hrs to complete this project and I really enjoyed it 😊.
+## I took 3 hours to complete this project and I really enjoyed it 😊.
 
 ## 💬 Connect With Me
 
