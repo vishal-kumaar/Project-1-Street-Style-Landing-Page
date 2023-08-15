@@ -1,5 +1,5 @@
 ## 🔗Project Link
-https://street-style-landing-site.vercel.app/
+https://vishal-kumaar.github.io/Project-1-Street-Style-Landing-Page/
 
 
 ## ✨ Project-1: Street Style Landing Page ✨
